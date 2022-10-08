@@ -1,6 +1,6 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: first-chart-cm-{{.Chart.version}}
+  name: first-chart-cm
 data:
   port: "8080"
